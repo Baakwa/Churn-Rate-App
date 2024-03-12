@@ -5,4 +5,4 @@ st.set_page_config(
     page_icon= '',
     layout= 'wide'
 )
-st.title = ('Dasboard')
+st.markdown('# 📊Dashboard')

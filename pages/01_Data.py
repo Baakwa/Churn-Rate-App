@@ -9,7 +9,7 @@ st.set_page_config(
     page_icon= '',
     layout= 'wide'
 )
-st.markdown('#### Data from Vodafone')
+st.markdown('# 🗃️Data from Vodafone')
 
 #Cache connection used to connect database
 @st.cache_data()
