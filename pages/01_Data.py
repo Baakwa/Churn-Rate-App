@@ -39,7 +39,9 @@ def load_data():
     return df
 
 
-df = load_data()
+#df = load_data()
+#df.to_csv('./Datasets/df.csv',index=False)
+df = pd.read_csv('./Datasets/df.csv')
 st.dataframe(df)
 
 # Get list of numerical and categorical columns
