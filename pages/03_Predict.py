@@ -26,13 +26,13 @@ class LogTransformer():
 #Create function to load models and cache them
 st.cache_resource(show_spinner='Model Loading')
 def load_LR_pipeline():
-    pipeline = joblib.load('./models/finished_model.joblib')
+    pipeline = joblib.load('./Models/finished_model.joblib')
     return pipeline
 
 
 st.cache_resource(show_spinner='Model Loading')   
 def load_GB_pipeline():
-    pipeline = joblib.load('./models/Gradient_boosting_model.joblib')
+    pipeline = joblib.load('./Models/Gradient_boosting_model.joblib')
     return pipeline
 
 
@@ -180,9 +180,8 @@ def predict_page():
         st.select_slider('Enter monthly charges', options=list(range(18, 120)), key='MonthlyCharges')
         st.select_slider('Enter your total charges', options=list(range(18, 8672)), key='TotalCharges')
 
-        
-        st.form_submit_button('Submit',on_click=make_predictions,kwargs=dict
-        (pipeline=pipeline, encoder=encoder)) 
+
+        st.form_submit_button('Submit',on_click=make_predictions,kwargs=dict(pipeline=pipeline, encoder=encoder)) 
 
 
 if __name__ == "__main__":
