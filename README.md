@@ -64,7 +64,7 @@ To build this application i made use of the following
 
 - **A home page that gives a brief description of the application and also login in credentials for the app**
 - **A data page which displays data loaded from the remote server**
-- **A prdeict page which allows users to select the model they want to use and input various parameters for prediction**
+- **A predict page which allows users to select the model they want to use and input various parameters for prediction**
 - **A history page that saves predictions made for future analysis**
 - **A dashboard that displays visualization of the data**
 
