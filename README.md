@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Churn-Rate-App
 </div>
 
