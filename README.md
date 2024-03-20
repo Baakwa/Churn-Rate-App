@@ -16,11 +16,6 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
 # Churn-Rate-App <a name="about-project"></a>
@@ -73,5 +68,54 @@ To build this application i made use of the following
 - **A history page that saves predictions made for future analysis**
 - **A dashboard that displays visualization of the data**
 
-![Homepage](C:\Users\baakw\Desktop\Churn-Rate-App\Images\homepage.png)
->>>>>>> f1d600854cee07a34d35784b4b6a80a1e93aee72
+## 💻 Getting Started <a name="getting-started"></a> 
+To get started with the Churn rate app  project, follow the steps below:
+
+
+### Prerequisites
+Ensure you have the following installed:
+
+- Python
+- Streamlit
+
+### Setup
+Clone the repository to your local machine by using:
+```sh
+git clone https://github.com/Baakwa/Churn-Rate-App.git
+```
+Navigate to the project directory:
+
+```sh
+cd Churn-Rate-App
+```
+
+Create a virtual environment:
+
+```sh
+On windows;
+virtual_env/Scripts/activate
+```
+
+### Install 
+
+Install the required Python packages:
+```sh
+pip install -r requirements.txt
+```
+### Usage
+To run the Churn Rate application, execute the following command:
+
+streamlit run 1_🏠_Home.py
+
+- Open a web browser and navigate to the provided URL to access the application.
+- Use the credentials username=Drop_ins and password=guest000 to log in.
+- Explore the features and functionalities of the application.
+
+  
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+
+
+  
