@@ -68,6 +68,8 @@ To build this application i made use of the following
 - **A history page that saves predictions made for future analysis**
 - **A dashboard that displays visualization of the data**
 
+![Homepage!](Images/homepage.png)
+
 ## 💻 Getting Started <a name="getting-started"></a> 
 To get started with the Churn rate app  project, follow the steps below:
 
