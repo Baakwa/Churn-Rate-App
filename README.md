@@ -25,15 +25,15 @@ This is a data application for predicting customer churn rate at a telecom compa
 Data Dictionary
 The following describes the columns present in the data.
 
-1. **Gender** : Whether the customer is a male or a female
-2. **SeniorCitizen** : Whether a customer is a senior citizen or not?
-3. **Partner**:  Whether the customer has a partner or not (Yes, No)
-4. **Dependents** : Whether the customer has dependents or not (Yes, No)
-5. **Tenure** : Number of months the customer has stayed with the company
-6. **Phone Service** : Whether the customer has a phone service or not (Yes, No)
-7. **MultipleLines** : Whether the customer has multiple lines or not
-8. **InternetService** : Customer internet service provider (DSL, Fiber Optic, No)
-9. **OnlineSecurity** : Whether the customer has online security or not (Yes, No, No Internet)
+1. **Gender** -- Whether the customer is a male or a female
+2. **SeniorCitizen** -- Whether a customer is a senior citizen or not?
+3. **Partner** --  Whether the customer has a partner or not (Yes, No)
+4. **Dependents** -- Whether the customer has dependents or not (Yes, No)
+5. **Tenure** -- Number of months the customer has stayed with the company
+6. **Phone Service** -- Whether the customer has a phone service or not (Yes, No)
+7. **MultipleLines** -- Whether the customer has multiple lines or not
+8. **InternetService** -- Customer internet service provider (DSL, Fiber Optic, No)
+9. **OnlineSecurity** -- Whether the customer has online security or not (Yes, No, No Internet)
 10. **OnlineBackup** -- Whether the customer has online backup or not (Yes, No, No Internet)
 11. **DeviceProtection** -- Whether the customer has device protection or not (Yes, No, No internet service)
 12. **TechSupport** -- Whether the customer has tech support or not (Yes, No, No internet)
@@ -107,9 +107,9 @@ pip install -r requirements.txt
 ### Usage
 To run the Churn Rate application, execute the following command:
 
-streamlit run 1_🏠_Home.py
+streamlit run Home.py
 
-- Open a web browser and navigate to the provided URL to access the application.
+- Navigate to the provided URL  or a web brower opens to access the application.
 - Use the credentials username=Drop_ins and password=guest000 to log in.
 - Explore the features and functionalities of the application.
 
